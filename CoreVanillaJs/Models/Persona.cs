@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CoreVanillaJs
+namespace CoreVanillaJs.Models
 {
     public partial class Persona
     {

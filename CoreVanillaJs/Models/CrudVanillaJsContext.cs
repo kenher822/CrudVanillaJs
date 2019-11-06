@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace CoreVanillaJs
+namespace CoreVanillaJs.Models
 {
     public partial class CrudVanillaJsContext : DbContext
     {
