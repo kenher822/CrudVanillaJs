@@ -30,15 +30,10 @@ namespace CoreVanillaJs.Models
         {
             modelBuilder.Entity<Persona>(entity =>
             {
-                entity.Property(e => e.Id)
-                    .HasColumnName("id")
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.Edad).HasColumnName("edad");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Nombre)
                     .IsRequired()
-                    .HasColumnName("nombre")
                     .HasMaxLength(50)
                     .IsUnicode(false);
             });
