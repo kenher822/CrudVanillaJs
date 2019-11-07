@@ -31,7 +31,6 @@ C:\Users\G3 1\source\repos\CoreVanillaJs\CoreVanillaJs\bin\Debug\netcoreapp3.0\C
 C:\Users\G3 1\source\repos\CoreVanillaJs\CoreVanillaJs\bin\Debug\netcoreapp3.0\CoreVanillaJs.pdb
 C:\Users\G3 1\source\repos\CoreVanillaJs\CoreVanillaJs\obj\Debug\netcoreapp3.0\CoreVanillaJs.dll
 C:\Users\G3 1\source\repos\CoreVanillaJs\CoreVanillaJs\obj\Debug\netcoreapp3.0\CoreVanillaJs.pdb
-C:\Users\G3 1\source\repos\CoreVanillaJs\CoreVanillaJs\obj\Debug\netcoreapp3.0\CoreVanillaJs.csprojAssemblyReference.cache
 C:\Users\G3 1\source\repos\CoreVanillaJs\CoreVanillaJs\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\G3 1\source\repos\CoreVanillaJs\CoreVanillaJs\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
 C:\Users\G3 1\source\repos\CoreVanillaJs\CoreVanillaJs\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll

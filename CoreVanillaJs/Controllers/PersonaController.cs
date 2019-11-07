@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreVanillaJs.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("permitir")]
     public class PersonaController : ControllerBase
     {
         [HttpGet]
@@ -50,11 +52,11 @@ namespace CoreVanillaJs.Controllers
         }
 
         [HttpDelete]
-        public ActionResult Delete(int id)
+        public ActionResult Delete([FromBody] Models.Request.PersonaEditRequest model)
         {
             using (Models.CrudVanillaJsContext db = new Models.CrudVanillaJsContext())
-            {
-                Models.Persona oPersona = db.Persona.Find(id);
+            {                
+                Models.Persona oPersona = db.Persona.Find(model.Id);
                 db.Persona.Remove(oPersona);
                 db.SaveChanges();
             }
